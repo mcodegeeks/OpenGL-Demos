@@ -64,6 +64,8 @@ void GLWidget::resizeGL(int w, int h)
 
 void GLWidget::paintGL()
 {
+    int i = 0;
+    i++;
     /*
     Canvas::getInstance()->clear();
 
