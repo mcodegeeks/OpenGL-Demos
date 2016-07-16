@@ -29,7 +29,7 @@
   <customwidget>
    <class>GLWidget</class>
    <extends>QOpenGLWidget</extends>
-   <header>Sources/GLWidget.h</header>
+   <header>GLWidget.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

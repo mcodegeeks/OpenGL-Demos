@@ -11,16 +11,19 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = OpenGL-Demos
 TEMPLATE = app
 
+include(libGraphics/libGraphics.pri)
 
-SOURCES += Sources/main.cpp \
-    Sources/MainWindow.cpp \
-    Sources/GLWidget.cpp
+SOURCES += main.cpp \
+    MainWindow.cpp \
+    GLWidget.cpp
 
-HEADERS  += Sources/MainWindow.h \
-    Sources/GLWidget.h \
-    Sources/android.h
+HEADERS  += \
+    MainWindow.h \
+    GLWidget.h \
+    android.h
 
-FORMS    += Sources/MainWindow.ui
+FORMS    += \
+    MainWindow.ui
 
 CONFIG += mobility
 MOBILITY = 
